@@ -1,0 +1,71 @@
+<svg width="1000px" height="300px" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+  <defs>
+
+    <polygon id="octagon" points="60,20 40,0 20,0 0,20 0,40 20,60 40,60 60,40" stroke="black" fill="white"/>
+  </defs>
+
+
+  <g transform="translate(0, 500)">
+
+    <use xlink:href="#octagon" x="0" y="0">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 30 30" to="360 30 30"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+    
+
+    <use xlink:href="#octagon" x="262" y="46">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 292 76" to="360 292 76"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+
+    <line x1="30" y1="30" x2="292" y2="76" stroke="red" stroke-width="6" />
+    
+
+    <polygon points="161,53 181,123 141,123" fill="green"/>
+  </g>
+
+  <g transform="translate(400, 100)">
+    <!-- First octagon with rotation animation -->
+    <use xlink:href="#octagon" x="320" y="0">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 350 30" to="360 350 30"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+
+    <use xlink:href="#octagon" x="582" y="46">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 612 76" to="360 612 76"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+
+    <line x1="350" y1="30" x2="612" y2="76" stroke="red" stroke-width="6" />
+
+    <polygon points="481,53 511,153 451,153" fill="violet"/>
+  </g>
+
+
+  <g transform="translate(400, 700)">
+
+    <use xlink:href="#octagon" x="640" y="0">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 670 30" to="360 670 30"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+    
+
+    <use xlink:href="#octagon" x="902" y="46">
+      <animateTransform attributeType="XML" attributeName="transform"
+                        type="rotate" from="0 932 76" to="360 932 76"
+                        dur="5s" repeatCount="indefinite"/>
+    </use>
+    
+
+    <line x1="670" y1="30" x2="932" y2="76" stroke="red" stroke-width="6" />
+    
+
+    <polygon points="801,53 841,163 761,163" fill="blue"/>
+  </g>
+</svg>
